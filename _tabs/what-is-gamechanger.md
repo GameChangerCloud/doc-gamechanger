@@ -29,10 +29,10 @@ These projects can be grouped in four categories. The ones responsible for gener
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each repository of this category is a generator of a client-side according to a certain front end technology. As you can see, three of the most common and used front-end frameworks can be used to generate the client-side of your application: Ember, React and Angular. The naming of the latter is quite different from its peers as the technology used to generate its files is different. Infact, the project angular-client-gamechanger uses an Angular schematic while the two others use yeoman. This choice of change was made as the community of the yeoman generator technology seems less and less active.  
 
 The next projects for this side of the GameChanger solution would thus be to :  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. conceive a [fourth client side generator](/_pages/contributing/client-generator-based-on-vuejs/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. conceive a [fourth client side generator](/_pages/client-generator-based-on-vuejs)
 , which would be base on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. [change the projects based on yeoman](/_pages/contributing/from-yeoman-to-angular-schematic/) so that they would instead use an Angular schematic  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. work on the generator based on Ember to [bring it up to date](/_pages/contributing/update-the-generator-based-on-ember/) as it was implemented a long ago.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. [change the projects based on yeoman](/_pages/from-yeoman-to-angular-schematic/) so that they would instead use an Angular schematic  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. work on the generator based on Ember to [bring it up to date](/_pages/update-the-generator-based-on-ember/) as it was implemented a long ago.
 
 ## Server-side generators
 
