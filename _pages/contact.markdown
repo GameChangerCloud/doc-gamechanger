@@ -1,6 +1,6 @@
 ---
 title: Contact
-permalink: /contact
+permalink: /contactt
 ---
 {% include header.html position="top" %}
 
