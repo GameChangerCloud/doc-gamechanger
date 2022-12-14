@@ -1,6 +1,7 @@
 ---
-title: Update the generator based on Ember
-permalink: /contributing/update-ember-generator/
+title: From Yeoman to Angular Schematic
+permalink: /contributing/from-yeoman-to-angular-schematic/
+layout: page
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

@@ -1,6 +1,7 @@
 ---
-title: About
-permalink: /about/
+title: Update the generator based on Ember
+permalink: /contributing/update-the-generator-based-on-ember/
+layout: page
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
