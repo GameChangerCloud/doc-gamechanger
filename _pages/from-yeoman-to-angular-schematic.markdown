@@ -1,5 +1,5 @@
 ---
-title: From Yeoman to Angular Schematics
+title: From Yeoman to Angular Schematic
 permalink: /contributing/from-yeoman-to-angular-schematic/
 ---
 
