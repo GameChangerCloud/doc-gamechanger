@@ -12,15 +12,15 @@ a graphql schema to its graphiql interface and slecting which technologies to us
 Let us dive in the several repositories of GameChanger Cloud to better understand which technologies are available.
 
 The GameChanger organisation manages 9 repositories :   
-*  addon-ember-client-gamechanger  
-*  schematic-angular-client-gamechanger  
-*  documentation-gamechanger  
-*  easygraphql-parser-gamechanger  
-*  generator-aws-server-gamechanger  
-*  generator-aws-server-typeorm-gamechanger  
-*  generator-react-client-gamechanger  
-*  graphiql-gamechanger  
-*  schematic-nest-server-gamechanger  
+*  [addon-ember-client-gamechanger](https://github.com/GameChangerCloud/addon-ember-client-gamechanger)  
+*  [schematic-angular-client-gamechanger](https://github.com/GameChangerCloud/schematic-angular-client-gamechanger)  
+*  [gamechangercloud.github.io](https://github.com/GameChangerCloud/gamechangercloud.github.io)  
+*  [easygraphql-parser-gamechanger](https://github.com/GameChangerCloud/easygraphql-parser-gamechanger)  
+*  [generator-aws-server-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-gamechanger)  
+*  [generator-aws-server-typeorm-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-typeorm-gamechanger)  
+*  [generator-react-client-gamechanger](https://github.com/GameChangerCloud/generator-react-client-gamechanger)  
+*  [graphiql-gamechanger](graphiql-gamechanger)  
+*  [schematic-nest-server-gamechanger](https://github.com/GameChangerCloud/schematic-nest-server-gamechanger)  
 
 These projects can be grouped in four categories. The ones responsible for generating the client side, those reponsible for generating the server side, the graphiql and the documentation, responsible for this website. We will now take a look at the first three categories.
 
