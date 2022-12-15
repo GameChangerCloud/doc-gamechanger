@@ -11,13 +11,12 @@ a graphql schema to its graphiql interface and slecting which technologies to us
 
 Let us dive in the several repositories of GameChanger Cloud to better understand which technologies are available.
 
-The GameChanger organisation manages 9 repositories :   
+The GameChanger organisation manages 8 repositories :   
 *  [addon-ember-client-gamechanger](https://github.com/GameChangerCloud/addon-ember-client-gamechanger)  
 *  [schematic-angular-client-gamechanger](https://github.com/GameChangerCloud/schematic-angular-client-gamechanger)  
 *  [gamechangercloud.github.io](https://github.com/GameChangerCloud/gamechangercloud.github.io)  
 *  [easygraphql-parser-gamechanger](https://github.com/GameChangerCloud/easygraphql-parser-gamechanger)  
-*  [generator-aws-server-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-gamechanger)  
-*  [generator-aws-server-typeorm-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-typeorm-gamechanger)  
+*  [generator-aws-server-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-gamechanger)    
 *  [generator-react-client-gamechanger](https://github.com/GameChangerCloud/generator-react-client-gamechanger)  
 *  [graphiql-gamechanger](https://github.com/GameChangerCloud/graphiql-gamechanger)  
 *  [schematic-nest-server-gamechanger](https://github.com/GameChangerCloud/schematic-nest-server-gamechanger)  
@@ -32,8 +31,6 @@ These projects can be grouped in four categories. The ones responsible for gener
 ## Server-side generators
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As its name suggests, this category of generators is in charge of the client side of your application. Before, you could generate the server-side of your application with a back-end based on AWS server. Now, the server-side of your generated application is based according to NestJS, a back-end framework. The two server-side use an AWS lambda as well as an RDS Base howerver the second is based on graphql and defines the graphql API using NestJS whereas the first also uses AWS for the API and is based on SQL. Finally, as it was the case for the client side, the naming is dirrefent for the two generator as they respectively use an Angular Schematic and Yeoman.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a matter of fact, the repository generator-aws-server-typeorm-gamechanger was made to generate the server-side using NestJS ans graphql but was abandonned as it was using Yeoman.
 
 ## GraphiQL
 
