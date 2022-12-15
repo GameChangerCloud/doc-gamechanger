@@ -28,11 +28,6 @@ These projects can be grouped in four categories. The ones responsible for gener
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each repository of this category is a generator of a client-side according to a certain front end technology. As you can see, three of the most common and used front-end frameworks can be used to generate the client-side of your application: Ember, React and Angular. The naming of the latter is quite different from its peers as the technology used to generate its files is different. Infact, the project angular-client-gamechanger uses an Angular schematic while the two others use yeoman. This choice of change was made as the community of the yeoman generator technology seems less and less active.  
 
-The next projects for this side of the GameChanger solution would thus be to :  
-1.  conceive a [fourth client side generator](/contributing/client-generator-based-on-vuejs), which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
-2.  [change the projects based on yeoman](/contributing/from-yeoman-to-angular-schematic/) so that they would instead use an Angular schematic  
-3.  work on the generator based on Ember to [bring it up to date](/contributing/update-the-generator-based-on-ember/) as it was implemented a long ago.
-4. [update the front-end and back-end generators](/contributing/make-generators-function-with-additional-scalars) so that would function with geographical and custom scalars.
 
 ## Server-side generators
 
