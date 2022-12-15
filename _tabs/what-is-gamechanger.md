@@ -19,7 +19,7 @@ The GameChanger organisation manages 9 repositories :
 *  [generator-aws-server-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-gamechanger)  
 *  [generator-aws-server-typeorm-gamechanger](https://github.com/GameChangerCloud/generator-aws-server-typeorm-gamechanger)  
 *  [generator-react-client-gamechanger](https://github.com/GameChangerCloud/generator-react-client-gamechanger)  
-*  [graphiql-gamechanger](graphiql-gamechanger)  
+*  [graphiql-gamechanger](https://github.com/GameChangerCloud/graphiql-gamechanger)  
 *  [schematic-nest-server-gamechanger](https://github.com/GameChangerCloud/schematic-nest-server-gamechanger)  
 
 These projects can be grouped in four categories. The ones responsible for generating the client side, those reponsible for generating the server side, the graphiql and the documentation, responsible for this website. We will now take a look at the first three categories.
