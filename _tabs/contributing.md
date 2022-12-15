@@ -18,7 +18,7 @@ Please provide the steps to reproduce your problem and, if possible, a full repr
 *  Explain with a simple sentence the expected behavior  
 *  Project version: e.g 1.0.17  
 *  GraphQL Schema & Query: e.g gist, pastebin or directly the query
-*  Is it a regression from a previous versions? e.g Yes|No
+*  Is it a regression from a previous versions?
 *  Stack trace
 
 ### Suggesting enhancements
