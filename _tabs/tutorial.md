@@ -4,13 +4,12 @@ order: 2
 icon: fa fa-book
 ---
 
-Before thinking about using GameChanger you need to install some dependencies usefull for the next steps. We consider that Node.js is installed on your machine.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before thinking about using GameChanger you need to install a few dependencies which are required for the next steps. We consider that Node.js is installed on your machine.
 
 ## Installation
-
 ### Angular CLI and generators
 
-The Command-Line Interface (CLI) of Angular is required to run the generators which are based on an Angular Schematic. To install it globally with npm, use the following command :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Command-Line Interface (CLI) of Angular is required to run the generators which are based on an Angular Schematic. To install it globally with npm, use the following command :
 
 ```bash
 npm install -g @angular/cli@latest
@@ -25,24 +24,25 @@ You will then have to install the generators for the front and back end of your 
 ```bash
 npm install schematic-nest-server-gamechanger@latest
 ```
-For the front generator you can choose the generator depending on the frontend framework you want to use. The front-end based on Angular is the only one available at the moment (the others have to be switched [from yeoman to angular schematic](/contributing/from-yeoman-to-angular-schematic/)). To download it, run the following:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the front generator you can choose the generator depending on the frontend framework you want to use. The front-end based on Angular is the only one available at the moment (the others have to be switched [from yeoman to angular schematic](/contributing/from-yeoman-to-angular-schematic/)). To download it, run the following:
 
 ```bash
 npm install schematic-angular-client-gamechanger@latest
 ```
-<sub>If you prefer yarn, you can run the commands usint `yarn add` and `yarn global add`</sub>
+>If you prefer yarn, you can run the commands using `yarn add` and `yarn global add`.
+{: .prompt-tip }
 
 ### AWS CLI
 
-The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services. Obviously you’ll need an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email). To install it you can follow the [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services. Obviously you’ll need an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email). To install it you can follow the [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
 ### GraphiQL Application
 
-Finally you need to clone the github repository of GameChanger's [GraphiQL](https://github.com/GameChangerCloud/graphiql-gamechanger) which is its main entrance. Your daa model will then be defined in this client application.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally you need to clone the github repository of GameChanger's [GraphiQL](https://github.com/GameChangerCloud/graphiql-gamechanger) which is its main entrance. Your daa model will then be defined in this client application.
 
 ## Usage
 
-Once everything is downloaded, we are ready to launch GameChanger and generate your application ! 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once everything is downloaded, we are ready to launch GameChanger and generate your application ! 
 
 To start you’ll have to go to the directory of the client application you cloned just before and run it.
 
@@ -56,7 +56,7 @@ Now that your application is running, you can observe three main parts on your b
 
 ### Define your model
 
-As described before, every step in this part have to happen in the GraphQL editor.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As described before, every step in this part have to happen in the GraphQL editor.
 
 In this editor you can define your entities and queries. You habe to be carefull however, GraphQL has a few particularities. GraphQL is based on a system of types and fields. Each entity is described by a type and its attributes by fields. For example, if you want to define a Developer entity with an id, a firstname, a lastname and a list of names of projects, your schema should looks like this:
 
@@ -70,13 +70,14 @@ type Developer {
 ```
 Let's take a look at the above code to have a better understanding :
 
-`Developer` is a GraphQL Object types that represents your entity.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Developer` is a GraphQL Object types that represents your entity.
 `id`, `firstname`, `lastname`, and `projets` are fields which represent attributes.
 `String` is the scalar type. GraphQL provides some default scalars but you can also  add new scalar types provided by GameChanger, we will talk about that later.
 The exclamation point (`!`) states that tha concerned field is non-nullable.
 `[String]` means that the field as to be a list of scalar of type `String`. 
 
-<sub> You can turn your list or its content non-nulable using the !</sub>
+>You can turn your list or its content non-nulable using the "`!`"
+{: .prompt-tip }
 
 ### Scalar types
 
@@ -86,8 +87,9 @@ By default, GraphQL provides a set of scalars:
 *  `Float` a signed double-precision floating-point value.
 *  `String` a UTF-8 character sequence
 *  `Boolean` true or false
-*  `ID` represents a unique identifier, used to fetch an object or as key for a cache.
-GameChanger use thoses ones but also provide its own set of scalars:
+*  `ID` represents a unique identifier, used to fetch an object or as key for a cache.  
+
+GameChanger use these but also provides its own set of scalars :
 
 *  ObjectID
 *  Date
@@ -138,13 +140,12 @@ The name must be **between 2 and 15 letters**, in **lowercase** and **without th
 *  The **Configure** button
 
 ## Application generation
-lancement du bash
 
-You have defined the model of your dream ? You have generated your bash script ? You are now ready to generate your final application skeleton !
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have defined the model of your dream ? You have generated your bash script ? You are now ready to generate your final application skeleton !
 
 All you need to put the bash script in a dedicated folder and execute it.
-
-<sub>If you are on windows you can use the git bash CLI</sub>
+>If you are on windows you can use the git bash CLI
+{: .prompt-tip }
 
 You should see the generation in your processing in your terminal. It takes few minutes to generate.
 
