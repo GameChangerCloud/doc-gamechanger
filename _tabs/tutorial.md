@@ -121,7 +121,7 @@ npm install schematic-angular-client-gamechanger@latest
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services. Obviously you’ll need an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email). To install it you can follow the [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
-All set ! Now you have a choice for the next steps. You can either generate your front-end and back-end separately or all at once with [GameChanger Cloud GraphiQL](#graphiql-application). We will first see how to generate the beck-end on its own and then generate the whole application.
+All set ! Now you have a choice for the next steps. You can either generate your front-end and back-end separately or all at once with [GameChanger Cloud GraphiQL](#generating-an-application-using-graphiql). We will first see how to generate the beck-end on its own and then generate the whole application.
 
 ## Generating and deploying a project manually
 
