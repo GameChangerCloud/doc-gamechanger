@@ -4,11 +4,9 @@ icon: fa fa-users
 order: 3
 ---
 
-# Want to contribute to GameChangerCoud ?
+GameChanger Cloud remains a work in progress, contributors are more than welcome. You can contribute to the following projects or suggest improvements through our [contact form](/contact/). 
 
-GameChanger remains a work in progress, contributors are more than welcome. You can contribute to the following projects or suggest improvements through our [contact form](/contact/). 
-
-## How can I contribute to Gamechanger ?
+## How can I contribute to Gamechanger Cloud?
 ### Reporting bugs
 
 To report a bug, please create an issue on github of the concerned repository and follow the guidelines below.
@@ -42,9 +40,9 @@ Before submitting your pull-request, make sure the following is done.
 *  Make sure all quality checks are green.
 
 The next steps for GameChanger would be to :
-*  conceive a [fourth client side generator](/contributing/client-generator-based-on-vuejs), which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
-*  [change the projects based on yeoman](/contributing/from-yeoman-to-angular-schematic/) so that they would instead use an Angular schematic  
-*  work on the generator based on Ember to [bring it up to date](/contributing/update-the-generator-based-on-ember/) 
-* [update the front-end and back-end generators](/contributing/make-generators-function-with-additional-scalars) so that would function with geographical and custom scalars
-*  [support incremental generation](/contributing/support-incremental-generation/)
+*  conceive a fourth client side generator, which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
+*  change the projects based on yeoman so that they would instead use an Angular schematic  
+*  work on the generator based on Ember to [bring it up to date] 
+*  update the front-end and back-end generators so that would function with geographical and custom scalars
+*  support incremental generation
 

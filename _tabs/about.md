@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 6
 ---
 
-[Ippon Technologies](https://us.ippon.tech/) is an international, independent technology consultancy and expertise firm. Ippon supports the digital transformation of companies, helping them to design their strategy and deploy their roadmap at scale, in order to rapidly deliver the expected value.
+GameChanger Cloud is an opensource solution initiated by [Ippon Technologies](https://us.ippon.tech/), an international, independent technology consultancy and expertise firm. Ippon supports the digital transformation of companies, helping them to design their strategy and deploy their roadmap at scale, in order to rapidly deliver the expected value.
 
 ## Our pillars
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Positive technology

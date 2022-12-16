@@ -4,7 +4,7 @@ order: 2
 icon: fa fa-book
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before thinking about using GameChanger you need to install a few dependencies which are required for the next steps. We consider that Node.js is installed on your machine.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before thinking about using GameChanger Cloud you need to install a few dependencies which are required for the next steps. We consider that Node.js is installed on your machine.
 
 ## Installation
 ### Angular CLI and generators
@@ -19,7 +19,19 @@ You can verify that this package was installed successfully with the command :
 ```bash
 @angular/cli --version
 ```
-You will then have to install the generators for the front and back end of your application. For the back-end, run:
+You will then have to install the generators for the front and back end of your application. 
+First create a dedicated directory for GameChanger Cloud.
+
+```bash
+mkdir GameChangerCloud
+cd GameChangerCloud
+```
+You can then initialize a parent project for schematics (answers to questions are not important) and install your schematics.
+
+```bash
+npm init
+```
+For the back-end, run:
 
 ```bash
 npm install schematic-nest-server-gamechanger@latest
@@ -36,13 +48,15 @@ npm install schematic-angular-client-gamechanger@latest
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services. Obviously you’ll need an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email). To install it you can follow the [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
+You're all set !  For the next
+
 ### GraphiQL Application
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally you need to clone the github repository of GameChanger's [GraphiQL](https://github.com/GameChangerCloud/graphiql-gamechanger) which is its main entrance. Your daa model will then be defined in this client application.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally you need to clone the github repository of GameChanger Cloud [GraphiQL](https://github.com/GameChangerCloud/graphiql-gamechanger) which is its main entrance. Your data model will then be defined in this client application.
 
 ## Usage
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once everything is downloaded, we are ready to launch GameChanger and generate your application ! 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once everything is downloaded, we are ready to launch GameChanger Cloud and generate your application ! 
 
 To start you’ll have to go to the directory of the client application you cloned just before and run it.
 
@@ -72,7 +86,7 @@ Let's take a look at the above code to have a better understanding :
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Developer` is a GraphQL Object types that represents your entity.
 `id`, `firstname`, `lastname`, and `projets` are fields which represent attributes.
-`String` is the scalar type. GraphQL provides some default scalars but you can also  add new scalar types provided by GameChanger, we will talk about that later.
+`String` is the scalar type. GraphQL provides some default scalars but you can also  add new scalar types provided by GameChanger Cloud, we will talk about that later.
 The exclamation point (`!`) states that tha concerned field is non-nullable.
 `[String]` means that the field as to be a list of scalar of type `String`. 
 
@@ -118,7 +132,7 @@ GameChanger use these but also provides its own set of scalars :
 *  HSLA
 *  RGB
 
-If you want to use custom scalars provided by GameChanger you must specify them at the begining of your schema. If we take the Developer exemple described before and we want him to have a `birthday` attribute of type Date, your schema should look like this:
+If you want to use custom scalars provided by GameChanger Cloud you must specify them at the begining of your schema. If we take the Developer exemple described before and we want him to have a `birthday` attribute of type Date, your schema should look like this:
 
 ```graphql
 scalar Date
@@ -151,4 +165,4 @@ You should see the generation in your processing in your terminal. It takes few 
 
 Your application is ready ! You can now focus on putting your idea into code.
 
-NB: For now, the generation of the project has to be done once the graphql schema is set and will not be modified. One of GameChanger's next steps would be to [support incremental generation](/contributing/support-incremental-generation/). By doing so, the graphql schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.
+NB: For now, the generation of the project has to be done once the graphql schema is set and will not be modified. One of GameChanger Cloud's next steps would be to [support incremental generation](/contributing/support-incremental-generation/). By doing so, the graphql schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.

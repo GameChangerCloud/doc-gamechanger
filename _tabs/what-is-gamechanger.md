@@ -2,16 +2,16 @@
 # the default layout is 'page'
 order: 1
 icon: fa fa-question-circle
-title: What is GameChanger ?
+title: What is GameChanger Cloud ?
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GameChanger is a development platform which aimsto quickly generate, develop, & deploy fully Cloud compliant applications & infrastructure, using GraphQL as entry point.
-By using GameChanger, you can easily generate a full project, with both server and client sides, by simply passing 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GameChanger Cloud is a development platform which aimsto quickly generate, develop, & deploy fully Cloud compliant applications & infrastructure, using GraphQL as entry point.
+By using GameChanger Cloud, you can easily generate a full project, with both server and client sides, by simply passing 
 a graphql schema to its graphiql interface and selecting which technologies to use for the client side.
 
 Let us dive in the several repositories of GameChanger Cloud to better understand which technologies are available and which are their purposes.
 
-The GameChanger organisation manages 8 repositories :   
+The GameChanger Cloud organisation manages 8 repositories :   
 *  [addon-ember-client-gamechanger](https://github.com/GameChangerCloud/addon-ember-client-gamechanger)  
 *  [schematic-angular-client-gamechanger](https://github.com/GameChangerCloud/schematic-angular-client-gamechanger)  
 *  [easygraphql-parser-gamechanger](https://github.com/GameChangerCloud/easygraphql-parser-gamechanger) 
@@ -36,9 +36,9 @@ However, only the one based on Angular is operational, as the others have to be 
 
 ## GraphiQL
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The GameChanger GraphiQL is kind of a GraphQL Playground which also serve as the interface for generating your fullstack application. Once provided with a graphql schema and a choice for the client-side technology, it will generate a script that you will have to execute to generate your whole application.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The GameChanger Cloud GraphiQL is kind of a GraphQL Playground which also serve as the interface for generating your fullstack application. Once provided with a graphql schema and a choice for the client-side technology, it will generate a script that you will have to execute to generate your whole application.
 
 ## Parser
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The repository easygraphql-parser-gamechanger is at the core of GameChanger. In fact, it defines the package responsible for interpreting the provided graphql schema, converting it into an array of types and enhancing this array with additionnal informations about the fields, the types and the relationships they have with each other.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The repository easygraphql-parser-gamechanger is at the core of GameChanger Cloud. In fact, it defines the package responsible for interpreting the provided graphql schema, converting it into an array of types and enhancing this array with additionnal informations about the fields, the types and the relationships they have with each other.
 

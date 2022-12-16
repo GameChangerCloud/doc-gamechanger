@@ -21,9 +21,9 @@ timezone: Euroope/paris
 
 port: 4001
 
-title: GameChanger Generator                          # the main title
+title: GameChanger Cloud Generator                          # the main title
 
-tagline: Implemened by Ippon Technology FR   # it will display as the sub-title
+tagline: Generate and deploy a simple CRUD application  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Game Changer is a development platform to quickly generate, 
