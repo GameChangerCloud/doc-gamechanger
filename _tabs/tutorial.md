@@ -193,4 +193,4 @@ You should see the generation in your processing in your terminal. It takes few 
 
 Your application is ready ! You can now focus on putting your idea into code.
 
-NB: For now, the generation of the project has to be done once the graphql schema is set and will not be modified. One of GameChanger Cloud's next steps would be to [support incremental generation](/contributing/support-incremental-generation/). By doing so, the graphql schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.
+NB: For now, the generation of the project has to be done once the GraphQL schema is set and will not be modified. One of GameChanger Cloud's next steps would be to [support incremental generation](/contributing/support-incremental-generation/). By doing so, the GraphQL schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.
