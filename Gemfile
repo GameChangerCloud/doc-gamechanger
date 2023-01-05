@@ -23,3 +23,4 @@ gem "webrick", "~> 1.7"
 gem "nokogiri", force_ruby_platform: true
 
 gem 'google-protobuf', '~> 3.21', '>= 3.21.12'
+gem 'bundler', '~> 2.4', '>= 2.4.2'
