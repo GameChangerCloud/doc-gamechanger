@@ -27,7 +27,7 @@ The exclamation point (`!`) states that tha concerned field is non-nullable.
 `[String]` means that the field as to be a list of scalar of type `String`. 
 
 >You can turn your list or its content non-nulable using the "`!`"
-{: .prompt-tip }
+
 
 ### Scalar types
 
@@ -115,13 +115,12 @@ npm install schematic-nest-server-gamechanger@latest
 npm install schematic-angular-client-gamechanger@latest
 ```
 >If you prefer yarn, you can run the commands using `yarn add` and `yarn global add`.
-{: .prompt-tip }
 
 ### AWS CLI
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The AWS Command Line Interface (AWS CLI) is an open source tool that enables you to interact with AWS services. Obviously you’ll need an [AWS account](https://portal.aws.amazon.com/billing/signup#/start/email). To install it you can follow the [documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
 
-All set ! Now you have a choice for the next steps. You can either generate your front-end and back-end separately or all at once with [GameChanger Cloud GraphiQL. We will first see how to generate the beck-end on its own and then generate the whole application.
+All set ! Now you have a choice for the next steps. You can either generate your front-end and back-end separately or all at once with GameChanger Cloud GraphiQL. We will first see how to generate the beck-end on its own and then generate the whole application.
 
 ## Generating and deploying a project manually
 
@@ -140,7 +139,7 @@ npm i --production
 nest start
 ```
 >For the client-side, run `ng serve` instead of nest start
-{: .prompt-tip }
+
 
 Your server is running ! Last step is to deploy it to AWS:
 
@@ -151,7 +150,7 @@ terraform init
 terraform apply -var-file="terraform.tfvar"
 ```
 >Make sure to set your region as the value of AWS_DEFAULT_REGION
-{: .prompt-tip }
+
 
 ## Generating an application using GraphiQL
 
@@ -187,7 +186,7 @@ The name must be **between 2 and 15 letters**, in **lowercase** and **without th
 
 All you need to put the bash script in a dedicated folder and execute it.
 >If you are on windows you can use the git bash CLI
-{: .prompt-tip }
+
 
 You should see the generation in your processing in your terminal. It takes few minutes to generate.
 
