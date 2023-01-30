@@ -236,12 +236,11 @@ You will then have to define your schema in the GraphQL editor. In this editor y
 ### Menu
 On the top menu, there are a few actions you can execute.
 
-*  The **Prettify** button allows you to format your code  
-*  The **History** button provides a list of the previous models you defined  
-*  The **Explorer** button  
+*  The **Prettify** button allows you to format your code.
+*  The **History** button provides a list of the previous models you defined.
 *  The **Generate** button is the one we are interested in to generate our application. You’ll have to chose a name for your application, choose the Javascript framework you want to work with and if you want random samples of data. This will generate a _bash script_.  
-The name must be **between 2 and 15 letters**, in **lowercase** and **without the aws word**
-*  The **Configure** button
+The name must be **between 2 and 15 letters**, in **lowercase** and **without the aws term**.
+*  The **Configure** button to set your AWS configuration.
 
 ### Application generation
 
@@ -255,4 +254,4 @@ You should see the generation in your processing in your terminal. It takes few 
 
 Your application is ready ! You can now focus on putting your idea into code.
 
-NB: For now, the generation of the project has to be done once the GraphQL schema is set and will not be modified. One of GameChanger Cloud's next steps would be to [support incremental generation](/contributing/support-incremental-generation/). By doing so, the GraphQL schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.
+NB: For now, the generation of the project has to be done once the GraphQL schema is set and will not be modified. One of GameChanger Cloud's next steps would be to support incremental generation. By doing so, the GraphQL schema could be modified, the generation could be redone and only the files which have to be modificated would be changed instead oh having to regenerate everything all over again.
