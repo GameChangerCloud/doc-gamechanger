@@ -11,7 +11,8 @@ a GraphQL schema to its graphiql interface and selecting which technologies to u
 
 Let us dive in the several repositories of GameChanger Cloud to better understand which technologies are available and which are their purposes.
 
-The GameChanger Cloud organisation manages 8 repositories  which work together as so:   
+The GameChanger Cloud organisation manages 8 repositories  which work together as so: 
+  
 ![Schema explaning how GameChanger Cloud repositories work together](/img/GCSchema.png)
 
 These projects can be grouped in five categories. The ones responsible for generating the client side, those reponsible for generating the server side, the graphiql, the parser and the [documentation](https://github.com/GameChangerCloud/gamechangercloud.github.io), responsible for this website. We will now take a look at the first four categories.

@@ -6,6 +6,8 @@ order: 6
 
 GameChanger Cloud is an opensource solution initiated by [Ippon Technologies](https://us.ippon.tech/), an international, independent technology consultancy and expertise firm. Ippon supports the digital transformation of companies, helping them to design their strategy and deploy their roadmap at scale, in order to rapidly deliver the expected value.
 
+![Ippon values banner](/img/ippon-city.jpg)
+
 ## Our pillars
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Positive technology
 At Ippon, we are convinced that technology is a source of progress, for organisations and for society as a whole. We have a positive culture of humanism, generosity and benevolence. These values are reflected in our environmental and social initiatives, supported by the Ippon Foundation and Ippon Go for Good.

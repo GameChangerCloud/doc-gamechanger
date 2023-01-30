@@ -44,3 +44,8 @@ This work is published under [MIT][mit] License.
 [use-template]: https://github.com/cotes2020/chirpy-starter/generate
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+## Updating the website
+
+To display the news tab, simply remove the underscore before the file name.
+Then you can start adding articles by adding file in the _posts directory.

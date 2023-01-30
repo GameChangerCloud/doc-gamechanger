@@ -6,6 +6,13 @@ order: 3
 
 GameChanger Cloud remains a work in progress, contributors are more than welcome. You can contribute to the following projects or suggest improvements through our [contact form](/contact/). 
 
+The next steps for GameChanger would be to :
+*  Conceive a fourth client side generator, which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
+*  Change the projects based on yeoman so that they would instead use an Angular schematic  
+*  Work on the generator based on Ember to [bring it up to date] 
+*  Update the front-end and back-end generators so that would function with geographical and custom scalars
+*  Support incremental generation
+
 ## How can I contribute to Gamechanger Cloud?
 ### Reporting bugs
 
@@ -38,11 +45,3 @@ Before submitting your pull-request, make sure the following is done.
 *  Fork the repository and create your branch from master so that it can be merged easily.
 *  Make sure all of the significant new logic is covered by tests.
 *  Make sure all quality checks are green.
-
-The next steps for GameChanger would be to :
-*  conceive a fourth client side generator, which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
-*  change the projects based on yeoman so that they would instead use an Angular schematic  
-*  work on the generator based on Ember to [bring it up to date] 
-*  update the front-end and back-end generators so that would function with geographical and custom scalars
-*  support incremental generation
-
