@@ -12,8 +12,11 @@ a GraphQL schema to its graphiql interface and selecting which technologies to u
 Let us dive in the several repositories of GameChanger Cloud to better understand which technologies are available and which are their purposes.
 
 The GameChanger Cloud organisation manages 8 repositories  which work together as so: 
-  
-![Schema explaning how GameChanger Cloud repositories work together](/img/GCSchema.png)
+
+![Schema explaning how GameChanger Cloud repositories work together](../img/GCCSchema.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generation can be done manually or via the GraphiQL interface. In both cases, the entry point is a GraphQL file that specifies the different types of entities in the database as well as their attributes. In both cases of generation, the parser will be called by the generators to enrich the data in the GraphQL file.   
+For a manual generation, the generators are directly used, which results in a project generation one by one. For a generation using GraphiQL, the GraphQL file is supplied to the GameChanger Cloud solution via a graphical interface named GraphiQL which, after receiving a choice of technologies, will generate a bash script. This script will then have to be executed by the user to call the Back-end and Front-end generators.
 
 These projects can be grouped in five categories. The ones responsible for generating the client side, those reponsible for generating the server side, the graphiql, the parser and the [documentation](https://github.com/GameChangerCloud/gamechangercloud.github.io), responsible for this website. We will now take a look at the first four categories.
 
