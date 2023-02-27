@@ -5,7 +5,7 @@ icon: fa fa-question-circle
 title: What is GameChanger Cloud ?
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GameChanger Cloud is a development platform which aimsto quickly generate, develop, & deploy fully Cloud compliant applications & infrastructure, using GraphQL as entry point.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GameChanger Cloud is a development platform which aims to quickly generate, develop, & deploy fully Cloud compliant applications & infrastructure, using GraphQL as entry point.
 By using GameChanger Cloud, you can easily generate a full project, with both server and client sides, by simply passing 
 a GraphQL schema to its graphiql interface and selecting which technologies to use for the client side.
 
