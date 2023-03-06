@@ -9,7 +9,7 @@ GameChanger Cloud remains a work in progress, contributors are more than welcome
 The next steps for GameChanger would be to :
 *  Conceive a fourth client side generator, which would be based on an Angular schematic for the generation of the files and Vue.js as the front-end framework  
 *  Change the projects based on yeoman so that they would instead use an Angular schematic  
-*  Work on the generator based on Ember to [bring it up to date] 
+*  Work on the generator based on Ember to bring it up to date 
 *  Update the front-end and back-end generators so that would function with geographical and custom scalars
 *  Support incremental generation
 
